@@ -5,6 +5,9 @@
     // -> Easily Create Dynamic Content: with embedded JavaScript expressions, enabling real-time updates based on variables
     // Babel: is a JavaScript compiler that transforms modern JavaScript (including JSX) into backward-compatible code
     // -> Babel converts JSX into standard JavaScript using React.createElement() calls (babeljs.io/repl)
+    // Virtual DOM: is a lightweight, in-memory (temporary  memory - RAM) representation of the actual DOM.
+    // -> React uses this virtual copy to track changes in the application state and efficiently determine the minimal set of updates needed to reflect those changes in the real DOM
+    // -> React updates only the Virtual DOM and React-dom updates the Real DOM
     
 // Key Features of JSX:
     // Attributes in JSX: HTML attributes are written in camelCase
@@ -12,7 +15,7 @@
 
 function Message() {
     const name = 'Sofia';
-    
+     
     if(name){
         return <h1>Hello {name}!</h1>;
     }

@@ -1,12 +1,15 @@
 # Study-React
 Repository created to study and practice React fundamentals using Vite as the build tool. 
 
-## Topics currently covered
-- Components
-- JSX
+## Topics Covered
+- 🔴 | Building Components: create reusable interface blocks
+- 🔴 | Rendering markup with JSX: write “HTML inside JavaScript”
+- 🔴 | Managing state: control data that changes on the screen (e.g. counter, form)
+- 🔴 | Passing input via props: send information from one component to another
+- 🔴 | Debugging React apps: find and fix errors
 
 ## Tools
-- Language/Library: JavaScript + React
+- Language/Library: JavaScript + React + React DOM
 - Build Tool: Vite
 - Runtime/Environment: Node.js
 
