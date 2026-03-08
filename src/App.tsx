@@ -1,7 +1,7 @@
-import FirstMessage from './Message'; //When importing a default export, you can use any name
+import Listgroup from "./components/Listgroup";
 
 function App(){
-  return <div> <FirstMessage/> </div>;
+  return <div> <Listgroup /> </div>;
 }
 
 export default App;

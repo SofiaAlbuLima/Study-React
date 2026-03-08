@@ -13,6 +13,12 @@ Repository created to study and practice React fundamentals using Vite as the bu
 - Build Tool: Vite
 - Runtime/Environment: Node.js
 
+## Requirements to Run
+- 
+
+## Commands
+- run web server: npm run dev
+
 ## Notes
 This is not a production project. It is a learning laboratory where code may be rewritten, refactored, or replaced as knowledge evolves.
 Some files include detailed comments to document concepts and reasoning during the learning process.
