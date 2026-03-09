@@ -1,14 +1,21 @@
 import { useState } from "react";
 
-function Listgroup() {
-  let items = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"];
+// passing data via props: Props are a way to pass data from a parent component to a child component in React. 
+// { items: [], heading: string }
+
+interface ListgroupProps { //Security feature for this component, it will be expected to be used 
+  items: string[];
+  heading: string;
+}
+
+function Listgroup({items, heading}: ListgroupProps) { //The code will use ListgroupProps as a rule. This is the non-destructured (worst) version of props: props: ListgroupProps
   // Hook: is a function that allows you to "hook into" React features. The useState hook allows you to add state to a functional component.
   // It returns an array with two elements: the current state value and a function to update that value.
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   return (
     <>
-      <h1>List</h1>
+      <h1>{heading}</h1>
       {items.length === 0 && <p>No items found.</p>}
       <ul className="list-group">
         {items.map((item, index) => (
