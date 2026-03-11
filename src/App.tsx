@@ -4,6 +4,7 @@
 import { useState } from "react";
 import Alert from "./components/Alert";
 import Button from "./components/Button";
+import { UserContext } from './contexts/UserContext'
 
 function App() {
   let items = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"];
